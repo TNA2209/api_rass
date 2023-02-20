@@ -71,7 +71,7 @@ const options = {
     username: 'farmstay',
     password: 'farmstay'
   };
-const client = mqtt.connect('mqtt://192.168.1.40:1883', options);
+const client = mqtt.connect('mqtt://169.254.126.164:1883', options);
 
 
 const app = express()
